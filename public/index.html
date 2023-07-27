@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Keep Notes</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="heading">
+            <h1>Keep Notes</h1>
+            <h3>Keep Your Notes safe with Keep Notes</h2>
+        </div>
+        <div id="functions">
+            <button id="create-note" class="buttons">Create New Note</button>
+            <input type="text" id="search-note" name="searchNote" placeholder="search-note">
+            <select name="sortNotes" id="sort-note">
+                <option value="recently updated" selected>Recently updated</option>
+                <option value="recently created">Recently created</option>
+                <option value="alphabatically" >Alphabatically</option>
+            </select>
+
+        </div>
+        
+
+        <div id="render-notes">
+            
+        </div>
+        <script src="scripts/index-bundle.js"></script>
+    </body>
+</html>
